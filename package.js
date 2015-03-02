@@ -1,6 +1,6 @@
 Package.describe({
   name: 'gabrielpoca:accounts-headquarters',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'A login service for the Headquarters.',
   git: 'https://github.com/groupbuddies/accounts-headquarters',
   documentation: 'README.md'
