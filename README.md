@@ -1,6 +1,6 @@
 accounts-headquarters
 =====================
 
-A login service for the [Headquarters API](https://github.com/groupbuddies/headquarters) using a [meteor wrapper](https://github.com/groupbuddies/headquarters-meteor/).
+A login service for the [Headquarters API](https://github.com/groupbuddies/headquarters). This package uses [headquarters-meteor](https://github.com/groupbuddies/headquarters-meteor/).
 
-This package uses `accounts-base`, to make it work include `{{> loginButtons}}` in your html.
+To start using include `{{> loginButtons}}` in your html.
