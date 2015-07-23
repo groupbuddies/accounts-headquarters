@@ -1,6 +1,6 @@
 Package.describe({
   name: 'gabrielpoca:accounts-headquarters',
-  version: '0.0.2',
+  version: '0.0.3',
   summary: 'A login service for the Headquarters.',
   git: 'https://github.com/groupbuddies/accounts-headquarters',
   documentation: 'README.md'
@@ -14,7 +14,8 @@ Package.onUse(function(api) {
   // Export Accounts (etc) to packages using this one.
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('gabrielpoca:headquarters@=0.0.3', ['client', 'server']);
+  api.use('accounts-ui', ['client', 'server']);
+  api.use('gabrielpoca:headquarters', ['client', 'server']);
 
   api.use('http', ['client', 'server']);
 
