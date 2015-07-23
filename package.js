@@ -15,7 +15,7 @@ Package.onUse(function(api) {
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
   api.use('accounts-ui', ['client', 'server']);
-  api.use('gabrielpoca:headquarters', ['client', 'server']);
+  api.use('gabrielpoca:headquarters@=0.0.4', ['client', 'server']);
 
   api.use('http', ['client', 'server']);
 
